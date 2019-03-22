@@ -2,13 +2,14 @@ package runtime
 
 import (
 	"bytes"
-	"encoding/json"
+	// "encoding/json"
 	"fmt"
 	"io"
 	"reflect"
 
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
+	json "github.com/json-iterator/go"
 )
 
 // JSONPb is a Marshaler which marshals/unmarshals into/from JSON
